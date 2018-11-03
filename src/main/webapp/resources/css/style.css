@@ -1,0 +1,328 @@
+@CHARSET "ISO-8859-1";
+
+header{
+	width: 100%;
+	z-index: 100;
+	position: fixed;
+	background-color: #ffffff;
+	padding: 10px;
+	height: 100px;
+}
+.container{
+    margin-left: 0px;
+}
+#imagelogo{
+	width: 150px;
+	height: 70px;
+}
+.imglogo{
+	float: left;
+	padding: 10px;
+}
+.heading3logo{
+	padding-left: 270px;
+	font-size: 35px;
+	float: left;
+}
+.a{	
+	padding-left: 150px;
+	font-size: 35px;
+	float: left;
+}
+a{
+	color: #000000;
+}
+a:hover{
+	color: #000000;
+	padding: 4px;
+	border: 2px solid #000000;
+	text-decoration: none;
+}
+.afiles{
+	color: #011100;
+	text-decoration: none;
+}
+.afiles:hover{
+	color: #011100;
+	padding: 4px;
+	border: 2px solid #011100;
+	text-decoration: none;
+}
+
+.headinglogo{
+	float: left;
+	margin-top: 20px;
+}
+.hr{
+	color: #d91b33;
+}
+
+/*register*/
+.index-center-register{
+	margin:auto;
+	margin-top:35px;
+	padding: 30px;
+	border: 2px solid  #d91b33;
+	color:#000000;
+	max-width:70%;
+}
+
+
+/*login*/
+.image{
+	margin-top: 120px;
+	padding: 30px;
+}
+.index-center{
+	margin: auto;
+	padding: 30px;
+	border: 2px solid  #d91b33;
+	color: #000000;
+	max-width: 500px;
+}
+h1{
+	color:#000000;
+}
+input{
+	margin: 10px;
+	padding: 8px;
+	width: 70%;
+	border-left: 4px solid #d91b33;
+	color: #000000;
+}
+#input-date{
+	padding: 5px;
+}
+.button{
+	margin: 10px;
+	background-color: transparent;
+	border: 2px solid #d91b33;
+	width: 150px;
+	padding: 10px;
+}
+.button:hover{
+	background-color:  #d91b33;
+}
+
+.image-row-body{
+	padding: 10px;
+}
+
+/*sidebar*/
+.content{
+	margin-top: 100px;
+}
+.sidenav {
+	width: 270px;
+    position: fixed;
+    overflow-x: hidden;
+    padding: 8px 0;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #064579;
+}
+
+.main {
+	z-index: 1;
+	margin-left: 250px; /* Same width as the sidebar + left position in px */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 30px 30px;
+}
+/*profile*/
+.profile {
+	position: relative;
+    padding: 30px;
+    border: 2px solid #d91b33;
+}
+.content-profile{
+	max-width: 100%;
+	text-align: left;
+	padding: 20px 80px;
+}
+#img-profile{
+	position: absolute;
+	top: -55px;
+	border-radius: 50%;
+}
+.tabletitle{
+	font-size: 25px;
+}
+.tablecontent{
+	font-size: 25px;
+	padding-left: 20px;
+}
+
+table {
+	margin-left: 50px;
+	margin-top: 35px;
+    border-collapse: collapse;
+    width: 90%;
+}
+
+/*view Candidates*/
+.main-viewcandidate{
+	z-index: 1;
+	margin-left: 250px; /* Same width as the sidebar + left position in px */
+    font-size: 18px; /* Increased text to enable scrolling */
+    
+}
+.content-viewcandidate{
+	max-width: 100%;
+	text-align: left;
+	padding: 0px 70px;
+}
+
+.tabletitle-viewcandidate{
+	text-align: center;
+	padding-left: 4px;
+	font-size: 20px;
+}
+.tablecontent-viewcandidate{
+	text-align: center;
+	font-size: 22px;
+	padding: 4px;
+}
+.row{
+	margin-top: 20px;
+	margin-left: 100px;
+}
+.row-date{
+	margin-top: 30px;
+}
+#search{
+	width: 300px;
+}
+.button-search{
+	background-color: transparent;
+	border: 2px solid #d91b33;
+	width: 100px;
+	padding: 5px;
+}
+.button-search:hover{
+	background-color:  #d91b33;
+}
+.button-call{
+	margin-top: 10px;
+	background-color: transparent;
+	border: 2px solid #d91b33;
+	width: 150px;
+	padding: 5px;
+}
+.button-call:hover{
+	background-color:  #d91b33;
+}
+
+/*interview*/
+.radio-name{
+	margin-top: 20px;
+}
+.candidatename{
+	padding: 20px;
+}
+.candidatename h1{
+	padding: 10px;
+}
+
+/*interviewresult*/
+.main-viewcandidateround{
+	z-index: 1;
+	margin-left: 250px; /* Same width as the sidebar + left position in px */
+    font-size: 18px; /* Increased text to enable scrolling */
+}
+.round-one-result{
+	padding: 0px 60px;	
+}
+
+/*table*/
+.viewCanidatetable{
+	counter-reset: serial-number;	
+}
+.viewCanidatetable td:first-child:before{
+	counter-increment: serial-number;
+	content: counter(serial-number);
+}
+
+.viewResultRoundOneTable{
+	counter-reset: serial-number;
+}
+.viewResultRoundOneTable td:first-child:before{
+	counter-increment: serial-number;
+	content: counter(serial-number);
+}
+.viewResultRoundFourTable{
+	counter-reset: serial-number;
+}
+.viewResultRoundFourTable td:first-child:before{
+	counter-increment: serial-number;
+	content: counter(serial-number);
+}
+.viewResultRoundTwoTable{
+	counter-reset: serial-number;
+}
+.viewResultRoundTwoTable td:first-child:before{
+	counter-increment: serial-number;
+	content: counter(serial-number);
+}
+.viewResultRoundThreeTable{
+	counter-reset: serial-number;
+}
+.viewResultRoundThreeTable td:first-child:before{
+	counter-increment: serial-number;
+	content: counter(serial-number);
+}
+
+.selectedCandidatetable{
+	counter-reset: serial-number;
+}
+.selectedCandidatetable td:first-child:before{
+	counter-increment: serial-number;
+	content: counter(serial-number);
+}
+.acceptedCandidateTable{
+	counter-reset: serial-number;
+}
+.acceptedCandidateTable td:first-child:before{
+	counter-increment: serial-number;
+	content: counter(serial-number);
+}
+.candidateLetterReleaseTable{
+	counter-reset: serial-number;
+}
+.candidateLetterReleaseTable td:first-child:before{
+	counter-increment: serial-number;
+	content: counter(serial-number);
+}
+.employeetable{
+	counter-reset: serial-number;
+}
+.employeetable td:first-child:before{
+	counter-increment: serial-number;
+	content: counter(serial-number);
+}
+
+.interviewtable{
+	counter-reset: serial-number;
+}
+.interviewtable td:first-child:before{
+	counter-increment: serial-number;
+	content: counter(serial-number);
+}
+.candidateDetailTable{
+	margin-left: 10px;
+	width: 100%;
+}
+
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
